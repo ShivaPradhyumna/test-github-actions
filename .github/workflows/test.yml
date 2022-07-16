@@ -17,3 +17,17 @@ jobs :
               run: yarn build
             - name: Setup finish
               run: echo hurray!!!
+   # print-hello-wold:
+    #     runs-on : ubuntu-latest
+    #     steps:
+    #         - run : echo "hello world!!!!"
+    #         - run : echo "this is step number 2"
+    build-app:
+        runs-on : ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:   
+                node-version: '16'
+            - run: node -v
+>>>>>>> 820bb336bd816ddc886fad4d5bc18ac1810a2f0c
