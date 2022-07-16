@@ -1,6 +1,6 @@
 name : my first github project
 on : [push]
-jobs : 
+jobs :
     print-hello-wold:
         runs-on : ubuntu-latest
         steps:
@@ -8,12 +8,37 @@ jobs :
             - run : echo "this is step number 2"
     build-app:
         runs-on: ubuntu-latest
-        steps: 
+        s teps: 
             - uses: actions/checkout@v2
             - uses: actions/setup-node@v2
               with:
                 node-version: '14.17.0'
-            - name: build the project
+
+                          
+           - n  ame: build the project
               run: yarn build
             - name: Setup finish
               run: echo hurray!!!
+==
+   # print-hello-wold:
+    #     runs-on : ubuntu-latest
+    #     steps:
+    #         - run : echo "hello world!!!!"
+    #        - run : echo "tis is step number 2"
+# 
+    b# u#i# # # ld-app:
+# 
+   #     #  runs-on : ubuntu-latest
+# 
+     #    s# teps:
+# 
+       #     #  - uses: actions/checkout@v3
+# 
+         #    -#  uses: actions/setup-node@v3
+# 
+           #    w# ith:   
+# 
+             #    n# ode-version: '16'
+# 
+            - r# un: # node -v
+#############3333333 >>>>>>> 820bb336bd816ddc886fad4d5bc18ac1810a2f0c
