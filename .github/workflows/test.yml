@@ -6,8 +6,8 @@ jobs :
         steps:
             - run : echo "hello world!!!!"
             - run : echo "this is step number 2"
-    print-hello-wold3:
+    build-app:
         runs-on : ubuntu-latest
         steps:
-            - run : echo "hello world2!!!!"
-            - run : echo "this is step number 2 2"
+            - uses: actions/checkout@v2
+            - run: tree
