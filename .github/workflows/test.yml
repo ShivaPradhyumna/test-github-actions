@@ -6,8 +6,8 @@ jobs :
         steps:
             - run : echo "hello world!!!!"
             - run : echo "this is step number 2"
-    print-hello-wold2:
+    print-hello-wold3:
         runs-on : ubuntu-latest
         steps:
-            - run : echo "hello world!!!!"
-            - run : echo "this is step number 2"
+            - run : echo "hello world2!!!!"
+            - run : echo "this is step number 2 2"
