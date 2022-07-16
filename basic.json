@@ -1,0 +1,18 @@
+{
+    "Karampudi" : {
+        "FirstName": "shiva",
+        "SecondName": "pradhyumna",
+        "order": "youngest son",
+        "Array" : [1,2,3,4,5],
+        "Array1" : [
+            {
+                "NickName" : "shiva",
+                "alterego" : "appu"
+            },
+            {
+                "realName": "shhivaa"
+            }
+        ],
+        "line" : "my name is shiva pradhyumna\ni'm an undergraduate"
+        }
+}

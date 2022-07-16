@@ -1,0 +1,21 @@
+#my family
+Karampudi:
+    FirstName: shiva
+    SecondName: pradhyumna
+    order: youngest son
+    Array : [1,2,3,4,5]  #arrays in yaml
+    Array1:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    Array2:
+        - NickName : shiva
+          alterego : appu
+        - realName : shhivaa   #array of objects
+    #multiline statements
+    line: |
+        my name is shiva pradhyumna
+        i'm an undergraduate
+    line2: hello

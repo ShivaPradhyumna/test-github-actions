@@ -1,12 +1,8 @@
-anvjh
-
-
-
-fdSFSF
-
-
-
-df
-DSFDSFSDG
-
-
+name : my first github project
+on : [push]
+jobs : 
+    print-hello-wold:
+        runs-on : ubuntu-latest
+        steps:
+            - run : echo "hello world!!!!"
+            - run : echo "this is step number 2"
